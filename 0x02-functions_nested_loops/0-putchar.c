@@ -1,26 +1,39 @@
-#include "main.h"
-
-
+#include "holberton.h"
 
 /**
  *
- *  * add - adds two integers
+ *  * main - Prints Holberton
  *
- *   * @a: first integer
+ *   *
  *
- *    * @b: second integer
+ *    * Return: Always 0 (Success)
  *
- *     *
- *
- *      * Return: addition of a and b
- *
- *       */
+ *     */
 
-
-
-int add(int a, int b)
+int main(void)
 
 {
 
-		return (a + b);
+		_putchar('H');
+
+			_putchar('o');
+
+				_putchar('l');
+
+					_putchar('b');
+
+						_putchar('e');
+
+							_putchar('r');
+
+								_putchar('t');
+
+									_putchar('o');
+
+										_putchar('n');
+
+											_putchar('\n');
+
+												return (0);
+
 }
