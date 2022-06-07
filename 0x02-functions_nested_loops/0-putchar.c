@@ -1,39 +1,22 @@
-#include "holberton.h"
+#include "main.h"
 
 /**
+ * main - Prints _putchar
  *
- *  * main - Prints Holberton
- *
- *   *
- *
- *    * Return: Always 0 (Success)
- *
- *     */
+ * Return: Always 0 (Success)
+ */
 
 int main(void)
 
 {
-
-		_putchar('H');
-
-			_putchar('o');
-
-				_putchar('l');
-
-					_putchar('b');
-
-						_putchar('e');
-
-							_putchar('r');
-
-								_putchar('t');
-
-									_putchar('o');
-
-										_putchar('n');
-
-											_putchar('\n');
-
-												return (0);
-
+	_putchar('_');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
+	_putchar('\n');
+	return (0);
 }
