@@ -1,23 +1,25 @@
 #!/usr/bin/python3
+"""5-island_perimeter module"""
 
-"""File representing an island"""
+
 
 def island_perimeter(grid):
 
-    """
+        """Returns the perimeter of the island described in grid"""
 
-    Returns the perimeter of an island.
-    Perimeter is 0 if not 1 finded in the array, means there is no island,
-    each time it has a land near it reduce the perimeter value by one or
-    like the same way opposite if there is water add one
-    """
-    perimeter = 0
-    for row in range(len(grid)):
-        for col in range(len(grid[row])):
-            if grid[row][col] == 1:
-                if row == 0 or grid[row - 1][col] == 0:                                                                                                     perimeter += 1
-                if row == len(grid) - 1 or grid[row + 1][col] == 0:                                                                                         perimeter += 1
-                if col == 0 or grid[row][col - 1] == 0:
-                    perimeter += 1
-                if col == len(grid[row]) - 1 or grid[row][col + 1] == 0:                                                                                    perimeter += 1
-                                                                                                                                            return (perimeter)
+            c = 0
+            length = len(grid) - 1
+            width = len(grid[0]) - 1
+
+
+            for i, r in enumerate(grid):
+                for j, n in enumerate(r):
+                    if n == 1:
+                        if i == 0 or grid[i - 1][j] != 1:
+                            c += 1
+                        if j == 0 or grid[i][j - 1] != 1
+                            c += 1                                                                                                                              if j == width or grid[i][j + 1] != 1:
+                            c += 1
+                        if i == length or grid[i + 1][j] != 1
+                            c += 1
+return 
